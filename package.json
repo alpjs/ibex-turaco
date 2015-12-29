@@ -1,0 +1,39 @@
+{
+  "name": "ibex-turaco",
+  "version": "1.0.1",
+  "description": "render with turaco in ibex",
+  "main": "lib/index.js",
+  "jspm": {
+    "main": "browser/lib/index.js",
+    "lib": "browser/"
+  },
+  "scripts": {
+    "test": "make test",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "repository": "alpjs/ibex-turaco",
+  "keywords": [
+    "alp",
+    "ibex"
+  ],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpjs/ibex-turaco/issues"
+  },
+  "homepage": "https://github.com/alpjs/ibex-turaco#readme",
+  "devDependencies": {
+    "springbokjs-library": "^12.3.0"
+  },
+  "dependencies": {
+    "html-document": "^0.8.1",
+    "nightingale": "^1.2.0",
+    "springbokjs-dom": "^0.11.0",
+    "turaco": "^1.2.1"
+  }
+}
